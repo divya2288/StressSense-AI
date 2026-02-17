@@ -1,0 +1,349 @@
+.result-container {
+  padding: 2rem 0;
+}
+
+.result-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.result-card h2 {
+  color: #333;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.analysis-section {
+  margin-bottom: 2.5rem;
+  padding-bottom: 2rem;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.analysis-section:last-of-type {
+  border-bottom: none;
+}
+
+.analysis-section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+/* Stress/Burnout Level Badges */
+.stress-level-badge,
+.burnout-level-badge {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stress-level-badge.low,
+.burnout-level-badge.low {
+  background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+  color: white;
+}
+
+.stress-level-badge.medium,
+.burnout-level-badge.medium {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+  color: white;
+}
+
+.stress-level-badge.high,
+.burnout-level-badge.high {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+  color: white;
+}
+
+/* Progress Bars */
+.confidence-bar,
+.risk-meter {
+  margin-bottom: 1.5rem;
+}
+
+.confidence-label,
+.risk-label {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.progress-bar {
+  background: #e0e0e0;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  transition: width 1s ease;
+  border-radius: 10px;
+}
+
+.progress-fill.low {
+  background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+}
+
+.progress-fill.medium {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+}
+
+.progress-fill.high {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+}
+
+/* Description */
+.description {
+  color: #555;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+/* Keywords */
+.keywords-section {
+  margin-top: 1.5rem;
+}
+
+.keywords-section h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.keywords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.keyword-badge {
+  background: #667eea;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+/* Probabilities */
+.probabilities {
+  margin-top: 1.5rem;
+}
+
+.probabilities h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.prob-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.prob-item {
+  display: grid;
+  grid-template-columns: 120px 1fr 60px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.prob-item span:first-child {
+  font-weight: 600;
+  color: #333;
+  font-size: 0.9rem;
+}
+
+.prob-bar {
+  background: #e0e0e0;
+  height: 12px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.prob-fill {
+  height: 100%;
+  transition: width 1s ease;
+  border-radius: 6px;
+}
+
+.prob-item span:last-child {
+  text-align: right;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Burnout Score */
+.burnout-score {
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.alert-box {
+  background: #fff3cd;
+  border-left: 4px solid #ffc107;
+  padding: 1rem;
+  border-radius: 6px;
+  color: #856404;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+/* Factors */
+.factors-section {
+  margin-top: 1.5rem;
+}
+
+.factors-section h4 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.factors-list {
+  list-style: none;
+  padding: 0;
+}
+
+.factors-list li {
+  background: #f8f9fa;
+  padding: 0.8rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 6px;
+  border-left: 4px solid #667eea;
+  color: #333;
+}
+
+/* Recommendations */
+.recommendations-section {
+  background: #f0f4ff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.recommendations-section h3 {
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.recommendations-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recommendation-item {
+  background: white;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  color: #333;
+  font-size: 1rem;
+  line-height: 1.6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* Emergency Resources */
+.emergency-section {
+  background: #fff5f5;
+  padding: 2rem;
+  border-radius: 12px;
+  border: 2px solid #ff6b6b;
+  margin-bottom: 2rem;
+}
+
+.emergency-section h3 {
+  color: #d32f2f;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+
+.emergency-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.emergency-item {
+  background: white;
+  padding: 1rem 1.2rem;
+  border-radius: 8px;
+  border-left: 4px solid #ff6b6b;
+  color: #333;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+/* Actions */
+.result-actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.result-card {
+  animation: fadeIn 0.5s ease-out;
+}
+
+.recommendation-item {
+  animation: fadeIn 0.8s ease-out backwards;
+}
+
+.recommendation-item:nth-child(1) { animation-delay: 0.1s; }
+.recommendation-item:nth-child(2) { animation-delay: 0.2s; }
+.recommendation-item:nth-child(3) { animation-delay: 0.3s; }
+.recommendation-item:nth-child(4) { animation-delay: 0.4s; }
+.recommendation-item:nth-child(5) { animation-delay: 0.5s; }
+
+/* Responsive */
+@media (max-width: 600px) {
+  .result-card {
+    padding: 1.5rem;
+  }
+
+  .result-actions {
+    flex-direction: column;
+  }
+
+  .result-actions .btn-primary,
+  .result-actions .btn-secondary {
+    width: 100%;
+  }
+
+  .prob-item {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+  }
+}

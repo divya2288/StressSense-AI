@@ -1,0 +1,77 @@
+.trend-chart-container {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.custom-tooltip {
+  background: white;
+  border: 2px solid #667eea;
+  border-radius: 8px;
+  padding: 1rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.tooltip-date {
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+}
+
+.tooltip-level {
+  color: #667eea;
+  margin-bottom: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.tooltip-score {
+  color: #666;
+  font-size: 0.85rem;
+}
+
+.chart-legend {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+}
+
+.legend-color.low {
+  background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+}
+
+.legend-color.medium {
+  background: linear-gradient(135deg, #f7971e 0%, #ffd200 100%);
+}
+
+.legend-color.high {
+  background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
+}
+
+@media (max-width: 600px) {
+  .trend-chart-container {
+    padding: 1rem;
+  }
+
+  .chart-legend {
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,9 @@
+@echo off
+echo Installing dependencies...
+pip install flask flask-cors scikit-learn pandas numpy joblib nltk
+
+echo Training model...
+python train_model.py
+
+echo Starting server...
+python app.py

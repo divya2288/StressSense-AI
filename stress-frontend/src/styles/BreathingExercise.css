@@ -1,0 +1,249 @@
+.breathing-container {
+  padding: 2rem 0;
+}
+
+.breathing-card {
+  background: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.breathing-card h2 {
+  color: #333;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.breathing-subtitle {
+  color: #666;
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+}
+
+/* Breathing Area */
+.breathing-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  margin-bottom: 2rem;
+}
+
+.breathing-circle {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.breathing-circle::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.breathing-circle.active::before {
+  opacity: 1;
+}
+
+.circle-content {
+  text-align: center;
+  color: white;
+  z-index: 1;
+}
+
+.phase-text {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.phase-timer {
+  font-size: 3rem;
+  font-weight: 300;
+}
+
+/* Breathing Animations */
+.breathing-circle.inhale.active {
+  transform: scale(1.4);
+  box-shadow: 0 15px 60px rgba(102, 126, 234, 0.5);
+}
+
+.breathing-circle.hold1.active,
+.breathing-circle.hold2.active {
+  transform: scale(1.4);
+  box-shadow: 0 15px 60px rgba(102, 126, 234, 0.5);
+}
+
+.breathing-circle.exhale.active {
+  transform: scale(1);
+  box-shadow: 0 5px 20px rgba(102, 126, 234, 0.2);
+}
+
+.breathing-circle.ready {
+  background: linear-gradient(135deg, #e0e0e0 0%, #bdbdbd 100%);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats */
+.breathing-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat-item {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-label {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.stat-value {
+  color: #333;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+/* Controls */
+.breathing-controls {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+/* Instructions */
+.breathing-instructions {
+  background: #f0f4ff;
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+.breathing-instructions h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.breathing-instructions ol {
+  padding-left: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.breathing-instructions li {
+  color: #555;
+  margin-bottom: 0.8rem;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.breathing-instructions li strong {
+  color: #667eea;
+}
+
+.tip {
+  background: white;
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 4px solid #667eea;
+  color: #333;
+  margin-top: 1rem;
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+/* Benefits */
+.benefits-section {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 12px;
+}
+
+.benefits-section h3 {
+  color: #333;
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+
+.benefits-section ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.benefits-section li {
+  color: #555;
+  font-size: 1rem;
+  padding: 0.5rem 0;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .breathing-card {
+    padding: 1.5rem;
+  }
+
+  .breathing-circle {
+    width: 200px;
+    height: 200px;
+  }
+
+  .phase-text {
+    font-size: 1.2rem;
+  }
+
+  .phase-timer {
+    font-size: 2rem;
+  }
+
+  .breathing-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .breathing-instructions,
+  .benefits-section {
+    padding: 1.5rem;
+  }
+}
+
+/* Pulse Animation */
+@keyframes pulse {
+  0%, 100% {
+    box-shadow: 0 10px 40px rgba(102, 126, 234, 0.3);
+  }
+  50% {
+    box-shadow: 0 15px 60px rgba(102, 126, 234, 0.6);
+  }
+}
+
+.breathing-circle.active {
+  animation: pulse 2s ease-in-out infinite;
+}

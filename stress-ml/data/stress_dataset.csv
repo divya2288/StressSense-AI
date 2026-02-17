@@ -1,0 +1,241 @@
+text,stress_level
+"I have 3 exams tomorrow and haven't started studying yet",2
+"Feeling relaxed and happy today, got enough sleep",0
+"Work deadlines are piling up and I can't keep up",2
+"Had a great day, everything went smoothly",0
+"I'm so exhausted, can't concentrate on anything",2
+"Enjoying a peaceful weekend with family",0
+"Too many assignments, feeling overwhelmed and anxious",2
+"Completed all my tasks on time, feeling accomplished",0
+"I feel burnt out, no motivation to do anything",2
+"Well-rested and ready for the day",0
+"Constant pressure at work, losing sleep over it",2
+"Had a productive day, feeling energized",0
+"My mind is racing, can't stop worrying about deadlines",2
+"Took a nice walk, feeling refreshed",0
+"Feeling depressed and hopeless about the future",2
+"Excited about upcoming projects",0
+"Workload is manageable, feeling in control",1
+"Bit tired but nothing serious",1
+"Some stress but handling it okay",1
+"Moderate pressure but coping fine",1
+"A little anxious about the presentation",1
+"Slightly overwhelmed but getting through it",1
+"Feeling okay, just a bit busy",1
+"Somewhat tired from the week",1
+"Minor stress from daily tasks",1
+"Balanced workload, doing well",1
+"I can't sleep, too stressed about tomorrow's meeting",2
+"Having dinner with friends, feeling great",0
+"Missed my deadline, feeling like a failure",2
+"Completed my workout, feeling strong",0
+"No one understands how stressed I am",2
+"Grateful for the support I'm receiving",0
+"Everything is going wrong, I want to give up",2
+"Looking forward to the weekend",0
+"I'm on the verge of a breakdown",2
+"Feeling content and peaceful",0
+"Too much on my plate, can't breathe",2
+"Nice weather today, went for a jog",0
+"I feel trapped and suffocated by responsibilities",2
+"Meditation helped me feel centered",0
+"Lost all interest in things I used to enjoy",2
+"Discovered a new hobby, feeling inspired",0
+"My health is deteriorating due to stress",2
+"Eating healthy and feeling good",0
+"I hate my life right now",2
+"Life is beautiful, enjoying every moment",0
+"Panic attacks are becoming frequent",2
+"Calm and collected today",0
+"I can't handle this anymore",2
+"Everything is under control",0
+"Severe headaches from all the stress",2
+"Slept well, woke up refreshed",0
+"Feel like I'm drowning in work",2
+"Organized my schedule, feeling prepared",0
+"Constant fatigue, no energy left",2
+"Full of energy and enthusiasm",0
+"I'm falling behind on everything",2
+"Caught up with all my tasks",0
+"My relationships are suffering because of stress",2
+"Quality time with loved ones",0
+"Can't focus, mind is all over the place",2
+"Focused and productive today",0
+"I need a break desperately",2
+"Just came back from vacation, feeling rejuvenated",0
+"Work-life balance is non-existent",2
+"Maintaining good work-life balance",0
+"I'm irritable and snapping at everyone",2
+"Patient and understanding with others",0
+"Physical symptoms of stress are showing",2
+"Healthy and fit",0
+"I feel isolated and alone",2
+"Surrounded by supportive people",0
+"Dreading going to work tomorrow",2
+"Excited for Monday morning",0
+"My performance is declining",2
+"Exceeding expectations at work",0
+"I can't remember the last time I was happy",2
+"Happiness comes naturally these days",0
+"Everything feels meaningless",2
+"Finding purpose in daily activities",0
+"I'm stuck in a rut",2
+"Making progress every day",0
+"Chronic stress is taking a toll",2
+"Stress-free and thriving",0
+"I need professional help",2
+"Managing well on my own",0
+"Anxiety keeps me up at night",2
+"Sleeping soundly every night",0
+"I feel numb and disconnected",2
+"Connected and engaged with life",0
+"My appetite has changed drastically",2
+"Eating regularly and healthily",0
+"I avoid social situations now",2
+"Enjoying social gatherings",0
+"I feel guilty for not doing enough",2
+"Satisfied with my efforts",0
+"Procrastinating due to stress",1
+"Getting things done efficiently",0
+"Moderate workload this week",1
+"Light workload, easy going",0
+"A bit concerned about finances",1
+"Financial situation is stable",0
+"Somewhat distracted lately",1
+"Highly focused and attentive",0
+"Feeling a bit down today",1
+"Feeling upbeat and positive",0
+"Minor issues at work",1
+"Everything smooth at work",0
+"A little uncertain about the future",1
+"Confident about what's ahead",0
+"Slightly fatigued",1
+"Energetic and lively",0
+"Some difficulty concentrating",1
+"Concentrating easily",0
+"A bit restless",1
+"Calm and relaxed",0
+"Mildly stressed about exams",1
+"Exams went well, relieved",0
+"Feeling average, nothing special",1
+"Feeling fantastic",0
+"Occasional worries",1
+"Carefree and happy",0
+"Sleep quality has dipped",1
+"Best sleep I've had in weeks",0
+"Somewhat tense",1
+"Completely at ease",0
+"Minor setbacks today",1
+"No obstacles today",0
+"A little pressure from deadlines",1
+"All deadlines met comfortably",0
+"Feeling neutral",1
+"Feeling joyful",0
+"Slight anxiety about presentation",1
+"Presentation went perfectly",0
+"Manageable stress levels",1
+"Zero stress today",0
+"Somewhat overwhelmed",1
+"Totally in control",0
+"A bit tired but okay",1
+"Full of vitality",0
+"Minor conflicts at home",1
+"Harmonious home environment",0
+"Feeling stretched thin",1
+"Plenty of time for everything",0
+"A little worried about health",1
+"In excellent health",0
+"Some stress from multitasking",1
+"Handling multiple tasks easily",0
+"Feeling lukewarm about goals",1
+"Passionate about my goals",0
+"Moderate anxiety levels",1
+"Anxiety-free",0
+"A bit uncertain",1
+"Very certain and confident",0
+"Somewhat dissatisfied",1
+"Highly satisfied",0
+"Feeling okay, not great",1
+"Feeling amazing",0
+"A little stressed but managing",1
+"No stress at all",0
+"Mild discomfort",1
+"Completely comfortable",0
+"Feeling so-so",1
+"Feeling wonderful",0
+"Slightly troubled",1
+"No troubles whatsoever",0
+"A bit uneasy",1
+"Perfectly at peace",0
+"Moderate concerns",1
+"No concerns",0
+"Feeling mediocre",1
+"Feeling excellent",0
+"Some tension in shoulders",1
+"Body feels loose and relaxed",0
+"A bit moody",1
+"Mood is stable and positive",0
+"Feeling indifferent",1
+"Feeling passionate",0
+"Slightly pessimistic",1
+"Optimistic about everything",0
+"A little scattered",1
+"Very organized",0
+"Somewhat unmotivated",1
+"Highly motivated",0
+"Feeling bland",1
+"Feeling vibrant",0
+"A bit low on confidence",1
+"Confidence is sky-high",0
+"Moderate self-doubt",1
+"No self-doubt",0
+"Feeling ordinary",1
+"Feeling extraordinary",0
+"A little lonely",1
+"Surrounded by love",0
+"Somewhat bored",1
+"Fully engaged and interested",0
+"Feeling uninspired",1
+"Bursting with inspiration",0
+"A bit stuck",1
+"Moving forward smoothly",0
+"Moderate frustration",1
+"No frustration",0
+"Feeling dull",1
+"Feeling bright and sharp",0
+"A little hesitant",1
+"Decisive and clear",0
+"Somewhat confused",1
+"Completely clear-headed",0
+"Feeling average energy",1
+"Energy levels are perfect",0
+"A bit uncertain about choices",1
+"Confident in all decisions",0
+"Moderate pressure",1
+"No pressure at all",0
+"Feeling alright",1
+"Feeling superb",0
+"A little weary",1
+"Fully refreshed",0
+"Somewhat distracted",1
+"Laser-focused",0
+"Feeling stable",1
+"Feeling on top of the world",0
+"A bit subdued",1
+"Lively and animated",0
+"Moderate effort required",1
+"Everything comes easily",0
+"Feeling somewhat capable",1
+"Feeling extremely capable",0
+"A little doubtful",1
+"Absolutely certain",0
+"Moderate challenges",1
+"No challenges",0
+"Feeling decent",1
+"Feeling phenomenal",0
+"A bit weighed down",1
+"Light as a feather",0
+"Somewhat restricted",1
+"Completely free",0
+"Feeling standard",1
+"Feeling exceptional",0
